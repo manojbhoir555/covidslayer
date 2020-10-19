@@ -138,7 +138,7 @@ class Profile extends CI_Controller {
 			$lifeRand=rand(1,10);
 			$lifeRand1=rand(1,10);
 			
-			$lifePlayer +=10;
+			$lifeDragon-=10;
 		    $lifePlayer -=$lifeRand1;
 			
 			
@@ -163,7 +163,7 @@ class Profile extends CI_Controller {
 			$lifeRand=rand(1,10);
 			$lifeRand1=rand(1,10);
 			
-			$lifePlayer +=15;
+			$lifePlayer +=10;
 		    $lifePlayer -=$lifeRand1;
 			
 			$post=array(
